@@ -1,0 +1,9 @@
+@name pureair-engine/workers/https-beginrequest-worker
+
+function beginHTTPSRequest(URL:string){
+#ifdef httpRequest(string)
+    httpRequest(URL)
+#else
+    tsprint("warning","HTTP Core is disabled on your server. Automatic version checking is disabled.")  
+#endif
+}
