@@ -1,8 +1,0 @@
-@name pureair-engine/resources/entity-selection
-
-if(->LOCOMOTIVE_ENTITY){
-SelectedEntity = LOCOMOTIVE_ENTITY
-}
-elseif(!->LOCOMOTIVE_ENTITY){
-SelectedEntity = E
-}
