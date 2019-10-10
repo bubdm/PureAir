@@ -1,0 +1,14 @@
+@name pureair-engine/scripts/localprint
+ 
+function tsprint(Type:string,MSG:string){
+    if(SILENT){ return }
+    local StartString = "PUREAIR ENGINE"
+    switch(Type){
+        case "info", printColor(vec(0,255,0),"[" + StartString + "] ",vec(255),MSG) break
+        case "notice", printColor(vec(0,150,255),"[" + StartString + " "+"| NOTICE] ",vec(255),MSG) break
+        case "warning", printColor(vec(255,255,0),"[" + StartString + " "+"| WARNING] ",vec(255),MSG) break
+        case "error", printColor(vec(255,0,0),"[" + StartString + " "+"| ERROR] ",vec(255),MSG) break
+        case "command", printColor(vec(0,255,255),"[" + StartString + " "+"| COMMAND] ",vec(255),MSG) break
+        case "debug", if(DEBUG){ printColor(vec(0,255,255),"[" + StartString + " "+"| DEBUG] ",vec(255),MSG) } break
+    }
+} 

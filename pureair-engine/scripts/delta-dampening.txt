@@ -1,0 +1,12 @@
+@name pureair-engine/scripts/delta-dampening
+
+function number smooth(Var,SmoothAmount,ID:string,DefaultVal) { #smoothes out a number using delta dampening
+    if(!SmoothTable:exists(ID)){
+        SmoothTable[ID,number] = DefaultVal
+    }
+    
+    local Smooth = SmoothTable[ID,number]    
+    Smooth += (Var-Smooth) / SmoothAmount
+    SmoothTable[ID,number] = Smooth
+    return Smooth
+}

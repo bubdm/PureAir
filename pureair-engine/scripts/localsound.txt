@@ -1,0 +1,15 @@
+@name pureair-engine/scripts/localsound
+
+function tssound(Type:string){
+    if(SILENT){ return }
+    switch(Type){
+        case "info", owner():soundPlay("rcsoundlib",0,"modern_alerts/lib/button26.wav") break
+        case "info2", owner():soundPlay("rcsoundlib",0,"modern_alerts/lib/button27.wav") break
+        case "alert", owner():soundPlay("rcsoundlib",0,"modern_alerts/lib/button01.wav") break
+        case "complete", owner():soundPlay("rcsoundlib",0,"modern_alerts/lib/button05.wav") break
+        case "complete2", owner():soundPlay("rcsoundlib",0,"modern_alerts/lib/button08.wav") break
+        case "warning", owner():soundPlay("rcsoundlib",0,"modern_alerts/lib/button12.wav") break
+        case "error", owner():soundPlay("rcsoundlib",0,"modern_alerts/lib/button15.wav") break
+        case "debug", if(DEBUG){ owner():soundPlay("rcsoundlib",0,"modern_alerts/lib/button17.wav") } break
+    }
+} 
