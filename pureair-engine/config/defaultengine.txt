@@ -1,7 +1,0 @@
-@name pureair-engine/config/defaultengine
-
-E = entity()
-O = owner()
-
-SILENT = 0
-DEBUG = 0
