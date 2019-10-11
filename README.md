@@ -42,13 +42,5 @@ Independant_flow = "titus's_locomotive_propper_model_pack_2.4/loops/s_nippongall
 
 # INDEX [HTML]
 
-<p style="
-color: font-size: 9px; !important 
-">
-HELLO</p>
-
-**NOTE:** This is a test.
-
-
-outline: 5px dotted green;
+<p style="background-color: #edc04d !important;"><strong>NOTE:</strong> This is a test.</p>
 
