@@ -44,3 +44,4 @@ Independant_flow = "titus's_locomotive_propper_model_pack_2.4/loops/s_nippongall
 
 <p background-color=#edc04d><strong>NOTE:</strong> This is a test.</p>
 
+<span style="background-color: #edc04d">Marked text</span>
