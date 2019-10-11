@@ -4,7 +4,7 @@
       alt="pureair-engine"
       title="www.titusstudios.net/"
       src="https://titusstudios.net/data/static/images/pureair-engine/og-image2.png"
-      width="600"
+      width="400"
     />
   </a>
 </p>
