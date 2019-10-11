@@ -14,6 +14,11 @@
 
 PureAir Engine is an environment responsive air braking processor built on Wiremod's Expression 2 Environment.
 
+# About
+
+# Use
+
+# Installation
 
 # File Structure
 
@@ -42,19 +47,19 @@ Root directory, most cases will be: `../data/expression2/`
 ### pureair-engine
 PureAir Engine's main directory, all files reguarding the Engine are stored in here.
 
-### config
+### Config
 PureAir Engine config files. Contains engine config, defaults, etc.
 
-### extensions
+### Extensions
 PureAir Engine Extensions. User made addons (for the engine) will be added here, and accessed by the processor here.
 
-### resources
+### Resources
 PureAir Engine Resources. Contains any; scripts, assets, lua, etc... that is used for getting info outside of the engine itself. Such as; BrightStar connection, RLCPT Gamma interface, sound emission entity source, etc.
 
-### scripts
+### Scripts
 All scripts for the main processor. Mostly used for external functions for modification.
 
-### workers
+### Workers
 Worker scripts. Pretty much everything to do with HTTP and HTTPS requests. Handles all requests for data on the internet.
 
 ***
