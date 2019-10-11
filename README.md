@@ -3,7 +3,7 @@
     <img
       alt="pureair-engine"
       title="www.titusstudios.net/"
-      src="https://titusstudios.net/data/static/images/pureair-engine/og-image.png"
+      src="https://titusstudios.net/data/static/images/pureair-engine/og-image2.png"
       width="600"
     />
   </a>
