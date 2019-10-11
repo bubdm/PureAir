@@ -16,7 +16,7 @@ PureAir Engine is an environment responsive air braking processor built on Wirem
 
 # About
 
-The PureAir Engine is the successor to my previous, "Titus's Triple Bypass Valve" Expression 2. PureAir is an Expression 2 that interfaces with [RLCPT Gamma]() and it's corresponding Control Reader E2. 
+The PureAir Engine is the successor to my previous, "Titus's Triple Bypass Valve" Expression 2. PureAir is an Expression 2 that interfaces with [RLCPT Gamma](https://github.com/MagnumMacKivler/RLCPT2) and it's corresponding Control Reader E2. 
 
 PureAir Engine uses the pre-calculated air brake pressure(s), brake pipe volume, and Air Flow in Cubic Feet per Minute (CFM) to calculate air brake application and releasing sound(s), duration(s), volume and pitch.
 
