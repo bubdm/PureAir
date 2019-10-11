@@ -24,6 +24,16 @@ Ordinary RLC Gamma uses a predefined application and release sound, which if you
 
 The PureAir Engine calculates the length of the train, and uses the air pressure and air flow rate to determine how long to play the application sound, how loud (volume) and then pitch (depending on situation), this also applies for releasing or any other changes between. PureAir simulates distribution valves and air leakage, furthermore adding to the realism.
 
+<p align="center">
+  <a href="https://www.titusstudios.net/">
+    <img
+      alt="pureair-engine"
+      title="www.titusstudios.net/"
+      src=".github/docs-images/Screenshot_6.jpg"
+    />
+  </a>
+</p>
+
 PureAir takes a responsive approach towards how it calculates the sound parameters, any and every aspect of the locomotives braking system and the trains braking system is taken into account, providing the most realistic experience for the driver. 
 
 We are constantly updating the engine for better simulation, and for viering engines and setups. Will the HTTPS version checking system you can make sure you have the latest version with the best performance. Each release is rigorously tested before being published, to make sure of absolute quality, and to get rid of any bugs. PureAir Engine is made for developers, with the new Extensions folder for user made mods, expanding the possibilities, which are endless. We are always trying to improve our products for the best user experience possible, if you would like to request a feature or report a bug or glitch you found while using the PureAir Engine, or just a question, post it on the GitHub Issues Tab.
