@@ -122,8 +122,7 @@ The file path should then look like `..\expression2\pureair-engine\..`.
 #### Wiring (Part A - Control Stand Editing)
 The PureAir Engine needs to know if and when you apply, release or move the Automatic Brakes. Sadly as PT Gamma doesnt have a direct output for it, we have to edit the RLCPT Gamma Control Stand E2 slightly.
 
-1. Find the Control Stand E2.
-1a. This will be one of the following:
+1. Find the Control Stand E2, This will be one of the following ( Expression 2(s) ):
 * cstand_aar
 * cstand_emd_composite
 * cstand_ge_kc92
