@@ -27,8 +27,6 @@ We are constantly updating the engine for better simulation, and for viering eng
 We are always trying to improve our products for the best user experience possible, if you would like to request a feature or report a bug or glitch you found while using the PureAir Engine, or just a question, post it on the GitHub Issues Tab.
 
 
-# Use
-
 # Release Types
 
 * **Current**: Not Under active development. Finished and polished (but may still contain minor bugs) versions of the code Release. (for example, **Version 2.x.x (Current)**).
