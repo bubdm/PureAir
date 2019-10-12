@@ -151,6 +151,9 @@ These are what the following changes should look like:
   </a>
 </p>
 
+| NOTE | This edit to the control stand chip works with any version (for PT Gamma), newer and older versions will work with this edit. |
+| :--- | :--- |
+
 4. Save and Exit the Control Stand E2
 
 
