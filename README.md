@@ -29,7 +29,164 @@ We are always trying to improve our products for the best user experience possib
 
 # Use
 
+# Release Types
+
+* **Current**: Not Under active development. Finished and polished (but may still contain minor bugs) versions of the code Release. (for example, **Version 2.x.x (Current)**).
+* **Betas**: Under active development. Code in the Beta release(s) is currently being worked on, it may contrain game breaking bugs. (for example, **Version 2.x.x (Beta)**).
+* **LTS**: Releases that receive Long-term Support, with a focus on stability. Note if you use an LTS release you may encounter compatibility issues with newer (or older) versions depending on the code version. (for example, **Version 2.x.x (LTS)*
+* **Misc**: Miscellaneous Release. Reasoning for release will be explained in the Release Description. (for example, **Version 2.x.x (Misc)**).
+
+Current, Betas, LTS and Misc releases follow [Semantic Versioning](https://semver.org). A
+member of the Release Team signs each Current, Beta, LTS, and Misc release.
+
 # Installation
+
+To install the PureAir Engine on a locomotive is fairly straight forward. You will need a basic understanding of Experssion 2, Wiremod, and Garry's Mod in general.
+
+
+### Required Addons
+
+| NOTE | You will also need "Titus's Locomotive Propper Model Pack 2.4" Addon for the PureAir Engine to work correctly. |
+| :--- | :--- |
+
+Titus's Locomotive Propper Model Pack 2.4: https://steamcommunity.com/sharedfiles/filedetails/?id=1809527658
+
+
+### Download the PureAir Engine
+
+**1.** Head to the releases tab of the PureAir GitHub
+
+<p align="left">
+  <a href="https://titusstudios.net/data/static/images/rlcpt2_readmeimg5.jpg">
+    <img
+      alt="pureair-engine"
+      src="https://titusstudios.net/data/static/images/rlcpt2_readmeimg5.jpg"
+    />
+  </a>
+</p>
+
+**2.** Download the Release of your choice (usually the latest one), usually you will only be downloading `(Current)` Releases.
+
+<p align="left">
+  <a href="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2000-48-02.png">
+    <img
+      alt="pureair-engine"
+      src="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2000-48-02.png"
+    />
+  </a>
+</p>
+
+| NOTE | Download by clicking the `Source code (zip)` button. |
+| :--- | :--- |
+
+**3.** Open the Zip file using a program like WinZip or WinRar, if it didn't open automatically. Then open the first folder in the zip file. **DO NOT** Extract the first folder (Ex, `PureAir-x.x.x`)! E2 will not work correctly! 
+
+
+<p align="left">
+  <a href="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2000-48-54.png">
+    <img
+      alt="pureair-engine"
+      src="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2000-48-54.png"
+    />
+  </a>
+</p>
+
+<p align="left">
+  <a href="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2000-49-01.png">
+    <img
+      alt="pureair-engine"
+      src="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2000-49-01.png"
+    />
+  </a>
+</p>
+
+| CAUTION | You want to see the folder seen above (ex, `pureair-engine`, if you dont, you are not in the right location and after extracting the E2 will not function. |
+| :--- | :--- |
+
+**4.** Extract the `pureair-engine` folder directly into: `<Your active steam directory>\SteamApps\common\Garry's Mod\garrysmod\data\expression2\`.
+The file path should then look like `..\expression2\pureair-engine\..`.
+
+| CAUTION | If you see the folder `PureAir-x.x.x` inside the `expression2` folder, YOU INSTALLED IT WRONG! ...and the E2 will not work! Follow the install guide again. |
+| :--- | :--- |
+
+| NOTE | If you're currently in-game in Garry's Mod, open the E2 Editor, and click the "Update" button under the list of E2s on the lefthand side of the window. |
+| :--- | :--- |
+
+
+### In-Game Setup
+
+#### Inital Setup
+1. Spawn the Engine Processor (`titus's_pureair_engine_processor`)
+2. Place the E2 somewhere on the locomotive, usually next to the RLC chip, or other chips. 
+3. Multiparent the E2 to the Locomotive Body, or a parenting Gate.
+4. Get the Wiremod Wiring tool out, and look at the PureAir Engine Processor.
+
+#### Wiring (Part A - Control Stand Editing)
+The PureAir Engine needs to know if and when you apply, release or move the Automatic Brakes. Sadly as PT Gamma doesnt have a direct output for it, we have to edit the RLCPT Gamma Control Stand E2 slightly.
+
+1. Find the Control Stand E2.
+1a. This will be one of the following:
+* cstand_aar
+* cstand_emd_composite
+* cstand_ge_kc92
+* cstand_sd60m_desktop
+2. Open the E2 with the Expression 2 tool.
+3. In the Control Stand E2, add the following to the output lines; `IncreaseTrainBrake` and `DecreaseTrainBrake`.
+These are what the following changes should look like:
+
+**Before:**
+<p align="left">
+  <a href="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2001-26-46.png">
+    <img
+      alt="pureair-engine"
+      src="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2001-26-46.png"
+    />
+  </a>
+</p>
+
+**After:**
+<p align="left">
+  <a href="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2001-27-17.png">
+    <img
+      alt="pureair-engine"
+      src="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2001-27-17.png"
+    />
+  </a>
+</p>
+
+4. Save and Exit the Control Stand E2
+
+
+#### Wiring (Part B - Wiring PureAir Inputs)
+1. Wire `AutoIncr` to the Control Stand E2s `IncreaseTrainBrake` Output.
+2. Wire `AutoDecr` to the Control Stand E2s `DecreaseTrainBrake` Output.
+2. Wire `EqualRes` to the RLCPT Gamma Chip's `EqualRes` Output.
+2. Wire `CFM` to the RLCPT Gamma Chip's `CFM` Output.
+2. Wire `Independant_Pressure` to the RLCPT Gamma Chip's `LocoBrakePressure` Output.
+2. Wire `BrakeCutIn` to your Automatic Brake Cut-In Button.
+2. Wire `AirBrakeMode` to the RLCPT Gamma Chip's `AirBrakeMode` Output.
+2. Wire `LOCOMOTIVE_ENTITY` to the Locomotive Body.
+
+| NOTE | The `LOCOMOTIVE_ENTITY` is an optional input. If it is not wired, the sound will emit from the E2 origin, and not the Locomotives Models origin. |
+| :--- | :--- |
+
+#### Final Setup
+To Complete the setup of the PureAir Engine, you will need to remove the normal air braking sounds from the Control Stand E2. The following strings should look like this for proper operation.
+
+```csharp
+
+AirBrakeApply = ""
+AirBrakeRelease = ""
+
+LocoBrakeFull = ""
+LocoBrakeReleaseSoft = ""
+LocoBrakeReleaseHard = ""
+
+```
+
+| NOTE | Any strings not shown above can be set to the default or to your liking. |
+| :--- | :--- |
+
 
 # File Structure
 
