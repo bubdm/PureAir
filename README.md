@@ -128,28 +128,18 @@ The PureAir Engine needs to know if and when you apply, release or move the Auto
 * cstand_ge_kc92
 * cstand_sd60m_desktop
 2. Open the E2 with the Expression 2 tool.
-3. In the Control Stand E2, add the following to the output lines; `IncreaseTrainBrake` and `DecreaseTrainBrake`.
+3. In the Control Stand E2, add the following to the output lines; `IncreaseTrainBrake`, `DecreaseTrainBrake` and `SetBrakeNotch`.
 These are what the following changes should look like:
 
 **Before:**
-<p align="left">
-  <a href="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2001-26-46.png">
-    <img
-      alt="pureair-engine"
-      src="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2001-26-46.png"
-    />
-  </a>
-</p>
+```csharp
+@outputs CtlTable:table Bell Light Misc CONSTANT RemoteMode
+```
 
 **After:**
-<p align="left">
-  <a href="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2001-27-17.png">
-    <img
-      alt="pureair-engine"
-      src="https://titusstudios.net/data/static/images/pureair-engine/Screenshot%20from%202019-10-13%2001-27-17.png"
-    />
-  </a>
-</p>
+```csharp
+@outputs CtlTable:table Bell Light Misc CONSTANT RemoteMode IncreaseTrainBrake DecreaseTrainBrake SetBrakeNotch
+```
 
 | NOTE | This edit to the control stand chip works with any version (for PT Gamma), newer and older versions will work with this edit. |
 | :--- | :--- |
@@ -160,12 +150,13 @@ These are what the following changes should look like:
 #### Wiring (Part B - Wiring PureAir Inputs)
 1. Wire `IncreaseTrainBrake` to the Control Stand E2s `IncreaseTrainBrake` Output.
 2. Wire `DecreaseTrainBrake` to the Control Stand E2s `DecreaseTrainBrake` Output.
-2. Wire `EqualRes` to the RLCPT Gamma Chip's `EqualRes` Output.
-2. Wire `CFM` to the RLCPT Gamma Chip's `CFM` Output.
-2. Wire `LocoBrakePressure` to the RLCPT Gamma Chip's `LocoBrakePressure` Output.
-2. Wire `BrakeCutIn` to your Automatic Brake Cut-In Button.
-2. Wire `AirBrakeMode` to the RLCPT Gamma Chip's `AirBrakeMode` Output.
-2. Wire `LOCOMOTIVE_ENTITY` to the Locomotive Body.
+3. Wire `SetBrakeNotch` to the Control Stand E2s `SetBrakeNotch` Output.
+4. Wire `EqualRes` to the RLCPT Gamma Chip's `EqualRes` Output.
+5. Wire `CFM` to the RLCPT Gamma Chip's `CFM` Output.
+6. Wire `LocoBrakePressure` to the RLCPT Gamma Chip's `LocoBrakePressure` Output.
+7. Wire `BrakeCutIn` to your Automatic Brake Cut-In Button.
+8. Wire `AirBrakeMode` to the RLCPT Gamma Chip's `AirBrakeMode` Output.
+9. Wire `LOCOMOTIVE_ENTITY` to the Locomotive Body.
 
 | NOTE | The `LOCOMOTIVE_ENTITY` is an optional input. If it is not wired, the sound will emit from the E2 origin, and not the Locomotives Models origin. |
 | :--- | :--- |
