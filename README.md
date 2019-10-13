@@ -158,11 +158,11 @@ These are what the following changes should look like:
 
 
 #### Wiring (Part B - Wiring PureAir Inputs)
-1. Wire `AutoIncr` to the Control Stand E2s `IncreaseTrainBrake` Output.
-2. Wire `AutoDecr` to the Control Stand E2s `DecreaseTrainBrake` Output.
+1. Wire `IncreaseTrainBrake` to the Control Stand E2s `IncreaseTrainBrake` Output.
+2. Wire `DecreaseTrainBrake` to the Control Stand E2s `DecreaseTrainBrake` Output.
 2. Wire `EqualRes` to the RLCPT Gamma Chip's `EqualRes` Output.
 2. Wire `CFM` to the RLCPT Gamma Chip's `CFM` Output.
-2. Wire `Independant_Pressure` to the RLCPT Gamma Chip's `LocoBrakePressure` Output.
+2. Wire `LocoBrakePressure` to the RLCPT Gamma Chip's `LocoBrakePressure` Output.
 2. Wire `BrakeCutIn` to your Automatic Brake Cut-In Button.
 2. Wire `AirBrakeMode` to the RLCPT Gamma Chip's `AirBrakeMode` Output.
 2. Wire `LOCOMOTIVE_ENTITY` to the Locomotive Body.
