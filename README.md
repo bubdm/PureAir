@@ -14,6 +14,8 @@
 
 PureAir Engine is an environment responsive air braking processor built on Wiremod's Expression 2 Environment.
 
+![GitHub issues](https://img.shields.io/github/issues/titus-studios-media/PureAir) ![GitHub closed issues](https://img.shields.io/github/issues-closed/titus-studios-media/PureAir) ![GitHub Language](https://img.shields.io/badge/language-expression2-brightgreen) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/wiremod/wire?color=brightgreen&label=expression2) ![GitHub platform](https://img.shields.io/badge/platform-linux--64%20%7C%20win--32%20%7C%20win--64%20%7C%20osx--64-lightgrey) ![GitHub](https://img.shields.io/github/license/titus-studios-media/PureAir)
+
 # About
 
 The PureAir Engine is the successor to my previous, "Titus's Triple Bypass Valve" Expression 2. PureAir is an Expression 2 that interfaces with [RLCPT Gamma](https://github.com/MagnumMacKivler/RLCPT2) and it's corresponding Control Reader E2. 
