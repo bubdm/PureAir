@@ -5,4 +5,4 @@
 *.md linguist-language=html
 
 # Reclassifying `.` files as Lua (GitHub API testing):
-* linguist-language=lua
+*. linguist-language=lua
