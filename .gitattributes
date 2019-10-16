@@ -3,3 +3,4 @@
 
 # Reclassifying `.md` files as HTML:
 *.md linguist-language=html
+
