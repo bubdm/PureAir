@@ -1,8 +1,8 @@
+# Reclassifying `.` files as Lua (GitHub API testing):
+*. linguist-language=lua
+
 # Using a `.gitattributes` file, with GitHubs Linguist, which reclassifies `.txt` files as CSharp:
 *.txt linguist-language=csharp
 
 # Reclassifying `.md` files as HTML:
 *.md linguist-language=html
-
-# Reclassifying `.` files as Lua (GitHub API testing):
-*. linguist-language=lua
