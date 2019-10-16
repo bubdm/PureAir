@@ -2,4 +2,4 @@
 *.txt linguist-language=csharp
 
 # Reclassifying `.md` files as Markdown:
-*.txt linguist-language=markdown
+*.md linguist-language=markdown
