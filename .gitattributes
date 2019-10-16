@@ -1,2 +1,5 @@
 # Using a `.gitattributes` file, with GitHubs Linguist, which reclassifies `.txt` files as CSharp:
 *.txt linguist-language=csharp
+
+# Reclassifying `.md` files as Markdown:
+*.txt linguist-language=markdown
