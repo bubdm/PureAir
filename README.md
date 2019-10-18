@@ -181,7 +181,7 @@ LocoBrakeReleaseHard = ""
 | :--- | :--- |
 
 
-# File Structure
+# File Structure (deprecated)
 
 * [_root](#_root)
   * [pureair-engine](#pureair-engine)
@@ -226,7 +226,7 @@ Worker scripts. Pretty much everything to do with HTTP and HTTPS requests. Handl
 ***
 
 
-# Defaults and Settings
+# Defaults and Settings (deprecated)
 
 The PureAir Engine, depending on the appilcation, has default sound settings which are siffcant in most cases. If however, you would like to change the preset defaults...
 
@@ -255,7 +255,7 @@ Independant_flow = "titus's_locomotive_propper_model_pack_2.4/loops/s_nippongall
 
 The PureAir Engine also has default engine settings, these can be found at `../pureair-engine/config/defaultengine.txt`
 
-### Default Engine Settings
+### Default Engine Settings (deprecated)
 ```csharp
 
 E = entity()
