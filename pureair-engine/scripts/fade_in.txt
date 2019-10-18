@@ -1,7 +1,0 @@
-@name pureair-engine/scripts/fade_in
-
-function number fade_in(Value,FadeAmount,ID:string,DefaultValue){
-local STF = Value
-Fade = smooth(STF,FadeAmount,"fade_"+ID,DefaultValue)
-return Fade    
-}
