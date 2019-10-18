@@ -183,6 +183,9 @@ LocoBrakeReleaseHard = ""
 
 # File Structure (deprecated)
 
+| NOTE | The PureAir Engine file including system has since been removed (`1.0.2` or higher) |
+| :--- | :--- |
+
 * [_root](#_root)
   * [pureair-engine](#pureair-engine)
     * [config](#config)
