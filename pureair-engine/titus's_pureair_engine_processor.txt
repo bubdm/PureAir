@@ -12,7 +12,7 @@ E = entity()
 O = owner()
 
 if(dupefinished() | duped()){reset()}
-if(first()){ 
+if(first()){
 
 
 # SETTINGS
@@ -80,7 +80,7 @@ function beginHTTPSRequest(URL:string){
     httpRequest(URL)
 #else
     tsprint("warning","HTTP Core is disabled on your server. Automatic version checking is disabled.")  
-#endifs
+#endif
 }
 
 
@@ -91,7 +91,8 @@ function https_caller(){
         if(httpData()!=""){
             #print(httpData())
             
-        }else{
+        }
+        else{
             tsprint("info","Could not find the version info online.")
         }
     }
@@ -152,7 +153,7 @@ beginHTTPSRequest("https://titusstudios.net/data/static/experssion2/pureair-vali
 
 CONSTANT = 1
 Reset = 0
-LocalVersion = "1.0.2"
+LocalVersion = "1.0.3"
 SILENT = 0
 DEBUG = 0
 }
@@ -193,6 +194,7 @@ if(BrakeCutIn){
 
 
 #---- Automatic Brake
+
 
 # Automatic Apply
 
@@ -290,7 +292,6 @@ if(changed(clk("san_stop2"))&clk("san_stop2")){
     ReleaseSAN = 0
     stoptimer("san_stop2")    
 }
-
 
 
 #---- Independant Brake
