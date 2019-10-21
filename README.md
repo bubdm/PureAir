@@ -240,7 +240,8 @@ Navigate to `../pureair-engine/titus's_pureair_engine_processor.txt` and open th
 
 The Default Sound Path and Sound Pitch settings are located under the Include Library
 
-### Default Sound Settings:
+
+# Default Sound Settings:
 ```csharp
 
 # SETTINGS
@@ -258,7 +259,7 @@ Independant_flow = "titus's_locomotive_propper_model_pack_2.4/loops/s_nippongall
 
 The PureAir Engine also has default engine settings, these can be found at `../pureair-engine/config/defaultengine.txt`
 
-### Default Engine Settings (deprecated)
+# Default Engine Settings (deprecated)
 ```csharp
 
 E = entity()
